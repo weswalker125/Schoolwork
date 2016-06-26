@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Spartan Data Base Search Engine</title>
+</head>
+<body>
+<h1 align="center"> <font color=blue size=6 face=lucida><strong>Spartan</strong> Hardware Stores<br> Database Search</font></h1>
+<br>
+  <!--   form action field for cgi program    -->
+ <form action="CS216echo.cgi" method=post>
+
+
+   <input type=hidden value="none" name=lastCust>
+
+      <p>Data Files Directory
+      <input type=text name=file value="~/HTML">
+<br>
+<br>
+   <p>Data to display:
+<br>
+   <p> View customer info by customer number
+      <input type=radio value=custID name=option>
+<br>
+   <p> View customer info by customer name
+      <input type=radio value=custName name=option>
+<br>
+   <p> View sales rep data for a cusotmer
+      <input type=radio value=salesRep name=option>
+<br>
+   <p> View next customer ordered by customer number
+      <input type=radio value=nextCust name=option>
+<br>
+<br>
+   <p> Customer number or name to search for:
+       <input type=text name=customer value="">
+<br>
+   <input type=submit value="Submit request">
+
+</form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+WSHELL
+
+NAME
+	wShell - (w for Wes) Shell tool used to demonstrate process management techniques
+	while utilizing the interfaces provided by the operating system.
+
+SYNOPSIS
+	(To execute)
+		./wShell
+	wShell> [command] [flag]
+	
+	Available option: Use the '&' character at the end of a command to signal that
+	this command can be ran in the background, prompting the user for new input directly
+	after the last (rather than waiting for the last command to finish executing).
+
+DESCRIPTION
+	see www.cs.uky.edu/~manivann/cs470/hw2.pdf for specific details
+
+DEVELOPMENT NOTES
+	wShell was developed on MULTILAB to ensure compatability with the instructor/grader.
+		written in c++, compiled with g++ 
+		how:
+			> g++ -o wShell wShell.cpp
+
+AUTHOR
+	Wesley Walker
+	Created for CS470G at the University of Kentucky, Fall semester (2011)
+	Due September 23rd, 2011

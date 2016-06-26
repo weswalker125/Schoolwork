@@ -1,0 +1,23 @@
+Script started on Wed 26 Oct 2011 10:56:56 PM EDT
+[4mcoreopsis[24m:[1m~/Documents/CS470/Homework4/workingdir[0m> ./wShell
+
+wShell> ls
+file1  file2  wShell  wShell_script.log
+
+wShell> cat file 1  1 file2 >> file3
+
+wShell> cat file1 file2 | more
+this is file 1.
+this is file 2.
+
+wShell> more file1
+this is file 1.
+
+wShell> more file2
+this is file 2.
+
+wShell> exit
+[4mcoreopsis[24m:[1m~/Documents/CS470/Homework4/workingdir[0m> exit
+exit
+
+Script done on Wed 26 Oct 2011 10:58:22 PM EDT

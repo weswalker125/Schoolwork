@@ -1,0 +1,56 @@
+<!-- Wesley Walker -->
+<!-- Program 5 -->
+
+<html>
+
+<head>
+<title> CS216 Program 5 </title> </head>
+<h1><center><img align="center" src="UKHealthCare.png"></center></h1>
+<BR>
+<!-- form action field for cgi program -->
+<form action="cs216program5.cgi" method=post>
+
+<!-- Set background -->
+<body style=background-image:url(background.jpg);
+	background-repeat:repeat;">
+
+
+<center>
+<!-- prompt user to select language -->
+<p><b>Language:</b></p>
+
+<!-- Option to run C++ program -->
+<p><input name="LANGUAGE" value="CPP" type="radio" Checked>C++ </p>
+<!-- The "Checked" option was added to the line, to provide a default -->
+<!-- selection, preventing bad/lack of input. -->
+
+
+<!-- Option to run Perl program -->
+<p><input name="LANGUAGE" value="PERL" type="radio">Perl</p>
+
+
+<!-- prompt user to select search method -->
+<p><b>Data to search for: </b></p>
+
+<!-- Option to search by Patient Number -->
+<p><input name="SEARCHMETHOD" value="1" type="radio" Checked>Patient by number</p>
+<!-- The "Checked" option was added to the line, to provide a default -->
+<!-- selection, preventing bad/lack of input. -->
+
+
+<!-- Option to search by Patient Name -->
+<p><input name="SEARCHMETHOD" value="2" type="radio">Patient by name</p>
+
+<!-- Option to search by Event Number -->
+<p><input name="SEARCHMETHOD" value="3" type="radio">Event</p>
+
+
+<!-- User's input to search -->
+<p><b> Patient number/name or Event ID: <input name="IDNAME" type="text"></p></b>
+
+<p><b><input type="submit" value="Submit request"></b></p>
+</form></div>
+
+<div style=background-image:url(./cs216program5_files/background.jpg);
+        background-repeat:repeat;">
+<BR><BR><BR><BR><BR><BR><BR><BR><BR></body></html>
