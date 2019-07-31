@@ -1,0 +1,5 @@
+GENERAL
+SELECT ln, fn, balance FROM cust WHERE (ln LIKE 'marek') AND (zip=40506)
+SELECT fn, ln FROM cust WHERE (ln LIKE 'm%') AND NOT (fn LIKE 'm%')
+SELECT ln, zip, fn FROM customers WHERE (zip<>40506) AND NOT (fn LIKE 'm%')
+SELECT ln, zip, fn FROM customers WHERE (zip<>40506) OR (fn LIKE 'm%')

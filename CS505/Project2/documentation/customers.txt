@@ -1,0 +1,5 @@
+ln;fn;address;zip;balance*
+char(16);char(10);char(24);integer;money*
+marek;victor;lexington;40506;149.99*
+dexter;harvey;louisville;43220;279.14*
+cashew;claudia;los angeles;93470;144.11*

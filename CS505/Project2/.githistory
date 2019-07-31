@@ -1,0 +1,114 @@
+commit ed830669dfcf5df44689e34f05dcf172054445d1
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Wed Dec 5 19:50:09 2012 -0500
+
+    GROUP BY added
+
+commit 11f8d5a3488fb0c1e62b16e18e1674747ae51dca
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Tue Dec 4 13:39:09 2012 -0500
+
+    freaking inequalities
+
+commit 683f3218f152fb6d1df3df35debd341c387ce6aa
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Nov 25 21:05:41 2012 -0500
+
+    changed readme
+
+commit 573ec3cbbe0296ee215a5f8d90e4581d21444058
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Nov 25 20:59:39 2012 -0500
+
+    documentation added
+
+commit c5a3de70e93c122b34e435f74cd2a3776c085e0e
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Nov 25 19:48:20 2012 -0500
+
+    adjustments, added messageboxes on exceptions
+
+commit 6573deee2eb796d6193c97f58c48480602a4f8a1
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Nov 25 18:47:42 2012 -0500
+
+    Quite possibly finished... about to start capturing use-cases
+
+commit 3d12176859ecaf91a6cc1fe83066db8ae87690a2
+Merge: e697ae4 315c48c
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Nov 25 17:23:45 2012 -0500
+
+    stop tracking suo
+
+commit e697ae4f6cea1aaa62b05078ecc9ce9435ea87b2
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Nov 25 17:22:50 2012 -0500
+
+    correction to query generation
+
+commit 315c48cc5b17f80d563cc4b377490039905fff4c
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sat Nov 24 23:56:12 2012 -0500
+
+    Hooked up to database.  Still need to consider things being selected  which are not taken care of in FROM or WHERE clause
+
+commit 51605c3e86b36e050d67766123af358b92b465dc
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sat Nov 24 18:45:51 2012 -0500
+
+    Pretty much finished... just need to hook up the DB to test interactions
+
+commit 96afc02440606fdbf57799e2055ed667bec1a47d
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sat Nov 24 17:26:50 2012 -0500
+
+    preparing to write test methods (for db connectivity, etc)
+
+commit e21928188d0fdae67145e4095adedfc4ba79182c
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sat Nov 24 16:37:42 2012 -0500
+
+    Create table calls implemented on populate table function
+
+commit cee0dc52defc2fed7e74490885ec6bc3d85deb15
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sat Nov 24 14:40:58 2012 -0500
+
+    Properly read in tables (tested with example provided by Marek).
+
+commit a256c9623f005f87896060b9bf5e1d0b6bbcaf7f
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sat Nov 24 13:59:25 2012 -0500
+
+    query generation at a very pleasant state
+
+commit 17a64611de6dfee7a9da5a7bcb78095269c3f6f2
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Wed Nov 21 16:14:07 2012 -0500
+
+    end-of-session commit.  Very happy with the progress I've made while listening to puppies battle
+
+commit 36f11f6ada42dd98fc1fe8d1ed587191e59d1cdf
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Wed Nov 21 16:00:46 2012 -0500
+
+    Correct parsing of the input query, next is to create the new create from the parsings
+
+commit 294d56f4bd050bf088979bff293824d0cf7a9a5a
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Wed Nov 21 14:21:04 2012 -0500
+
+    restructuring the repository
+
+commit 0a5b463e97f2487f751476964514991356cb16ea
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sun Nov 18 20:12:47 2012 -0500
+
+    Major progress
+
+commit 5162a47c19eba1932b7ba61f7da2055c7e96de67
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Nov 18 13:41:19 2012 -0500
+
+    initial commit: basic controls planned out, no functionality.

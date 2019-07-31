@@ -1,0 +1,89 @@
+commit 0cf4066d862e0f76a6c73968950a1c6da7749160
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Wed Oct 10 21:17:38 2012 -0400
+
+    Control added to remove from forbidden or permitted list
+
+commit 3e23bf9233999fbc52f1d4c4094013b6997b03d2
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Wed Oct 10 20:55:33 2012 -0400
+
+    check that a permitted/forbidden action may exist or a more powerful one exists
+
+commit 07e894f40daa5f830035ea7d6831b337bc01a87a
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Wed Oct 10 20:28:53 2012 -0400
+
+    Deleted 3 unnecessary files
+
+commit bdaf5174c956bd42f6309aeeb6376c2b06684790
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Wed Oct 10 20:26:38 2012 -0400
+
+    saved
+
+commit 2e0e624eadf975fdb6aea4307143090af7b7782b
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Wed Oct 10 20:26:00 2012 -0400
+
+    very close, most logic is down right awesome.  Also added Documentation directory (so far contains on screenshots)
+
+commit 686ffb1f6083ac5d0b9401a72cf71104f4492064
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Wed Oct 10 02:41:15 2012 -0400
+
+    cleaned a lot up.  Only two days left... better get this finished
+
+commit b889cb4380c9853f2091c07a3da31d7b14e83cf2
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Mon Oct 8 19:29:16 2012 -0400
+
+    forbidden logic for table actions done.  now for grant logic
+
+commit af42aa3feec2a2ca5edca6c9a4802795bdfa8d6b
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Mon Oct 8 18:03:42 2012 -0400
+
+    Significant permitted logic... now to fulfill the forbidden logic, then the same for granting (ugh)
+
+commit b5680162592cc5c310645f74c0a59bef38013dc6
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Oct 7 14:08:12 2012 -0400
+
+    A couple more functional points (permitted list fix, get column names function, etc)
+
+commit 0d4a024e39f1eca56daac1e832164ac70d65a6be
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Oct 7 02:36:29 2012 -0400
+
+    More simple stuff, last real bit of work will be the conflicting logic for adding to permitted and forbidden
+
+commit 4d869713224d03ec897a813e1d2c11c14f938bbf
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Oct 6 17:35:14 2012 -0400
+
+    Lots of UI in it's finished stage.  DB logic coming together; actually have a db connection now
+
+commit a84913b4aa405baf644965dc617a69abf5c8a59e
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Thu Oct 4 00:22:42 2012 -0400
+
+    Consolidated all UI into main window (couldn't figure out loading user control into the main content control...)
+
+commit ff631fef2d849d4143575b554a2a9a53d5dae4c8
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Tue Oct 2 22:24:57 2012 -0400
+
+    UI nearly complete, time for actual database logic
+
+commit 51371c56dae43e6a87acd4047f155cecebf8c99f
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Thu Sep 20 22:27:37 2012 -0400
+
+    initial (code) commit
+
+commit e7d6d41a3c6d27672ce632963c51b6548f9c73d2
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Thu Sep 20 22:27:15 2012 -0400
+
+    gitignore

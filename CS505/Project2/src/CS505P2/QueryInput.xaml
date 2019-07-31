@@ -1,0 +1,55 @@
+﻿<Window x:Class="CS505P2.QueryInput"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Query Input" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Label Name="qi_label_input"
+               Grid.Row="0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               FontFamily="Cambria"
+               FontSize="16"
+               Content="Query: " />
+        
+        <TextBox Name="qi_textBox_input"
+                Grid.Row="0"   
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                Width="auto"
+                Height="auto"
+                Margin="55,30,20,25" 
+                TextWrapping="Wrap" />
+
+        <Button Name="qi_button_transformQuery"
+                Grid.Row="0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                FontFamily="Cambria"
+                FontSize="12"
+                Content="Transform" Click="qi_button_transformQuery_Click" />
+
+        <TextBlock Name="qi_textblock_transformedQuery"
+               Grid.Row="1"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontFamily="Cambria"
+               FontSize="12"
+               Text="(Transformed query shown here...)"
+               TextWrapping="Wrap" />
+
+        <Button Name="qi_button_executeQuery"
+                Grid.Row="1"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                FontFamily="Cambria"
+                FontSize="12"
+                IsEnabled="False"
+                Content="Execute" Click="qi_button_executeQuery_Click" />
+
+    </Grid>
+</Window>
