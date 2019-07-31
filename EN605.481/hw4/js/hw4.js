@@ -1,5 +1,5 @@
-var civicApiKey = "AIzaSyC1H-on_SD36xwzTnxRwhXQcUc9aETBjlM";
-var geocodeApiKey = "AIzaSyCBZRt1KkYoI3_4aStVulpcxi2ys4mCoFs";
+var civicApiKey = "DEFUNCT";
+var geocodeApiKey = "DEFUNCT";
 var geocoder;
 var map;
 
