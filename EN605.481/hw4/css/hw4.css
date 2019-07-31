@@ -1,0 +1,48 @@
+.rep-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 1em;
+    width: 200px;
+    height: auto;
+    min-height: 320px;
+    padding-bottom: 10px;
+    background-color: rgb(222,184,135, 0.2);
+    cursor: pointer;
+}
+
+.rep-card-image {
+	width: 100%;
+	height: 230px;
+	background-repeat: no-repeat; 
+	background-size: contain;
+	background-position: bottom;
+}
+
+.rep-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.rep-card-container h4, p {
+    margin: 0;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.rep-card:hover .tooltiptext {
+    visibility: visible;
+}

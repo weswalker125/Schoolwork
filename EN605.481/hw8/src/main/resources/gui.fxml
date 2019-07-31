@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import java.lang.Integer?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="869.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.jhu.wwalke24.Homework8Controller">
+   <children>
+      <Label text="Enter Mortgage Information">
+         <VBox.margin>
+            <Insets left="25.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="116.0" prefWidth="869.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="81.0" prefWidth="869.0" spacing="80.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="223.0" spacing="10.0">
+                     <children>
+                        <Label text="Loan Amount $" />
+                        <TextField fx:id="loanAmountText" prefHeight="26.0" prefWidth="108.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                     <children>
+                        <Label text="Interest Rate" />
+                        <ComboBox fx:id="interestRateCombo" prefHeight="26.0" prefWidth="98.0">
+                          <items>
+                            <FXCollections fx:factory="observableArrayList">
+                              <Double fx:value="3.25" />
+                              <Double fx:value="3.50" />
+                              <Double fx:value="3.75" />
+                              <Double fx:value="4.00" />
+                              <Double fx:value="4.25" />
+                              <Double fx:value="4.50" />
+                              <Double fx:value="4.75" />
+                              <Double fx:value="5.00" />
+                            </FXCollections>
+                          </items>
+                          <value>
+                            <Double fx:value="3.75" />
+                          </value>
+                        </ComboBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="81.0" prefWidth="230.0" spacing="10.0">
+                     <children>
+                        <Label text="Mortgage Term (Years)" />
+                        <ComboBox fx:id="mortgageTermCombo" prefHeight="26.0" prefWidth="70.0">
+                          <items>
+                            <FXCollections fx:factory="observableArrayList">
+                              <Integer fx:value="5" />
+                              <Integer fx:value="10" />
+                              <Integer fx:value="15" />
+                              <Integer fx:value="30" />
+                            </FXCollections>
+                          </items>
+                          <value>
+                            <Integer fx:value="30" />
+                          </value>
+                        </ComboBox>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </HBox>
+            <Button fx:id="calculateButton" layoutX="395.0" layoutY="81.0" mnemonicParsing="false" onAction="#handleCalculateButtonAction" text="Calculate" />
+         </children>
+      </AnchorPane>
+      <TableView fx:id="amortizationTable" prefHeight="332.0" prefWidth="869.0">
+        <columns>
+          <TableColumn fx:id="monthNumberColumn" prefWidth="129.0" text="Month Number">
+            <cellValueFactory>
+              <PropertyValueFactory property="monthNumber" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn minWidth="5.0" prefWidth="111.0" text="Payment">
+            <cellValueFactory>
+              <PropertyValueFactory property="paymentString" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn prefWidth="156.0" text="Principal Paid">
+            <cellValueFactory>
+              <PropertyValueFactory property="principalPaidString" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn minWidth="0.0" prefWidth="140.0" text="Interest Paid">
+            <cellValueFactory>
+              <PropertyValueFactory property="interestPaidString" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn minWidth="0.0" prefWidth="172.0" text="Total Interest Paid">
+            <cellValueFactory>
+              <PropertyValueFactory property="totalInterestPaidString" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn minWidth="0.0" prefWidth="160.0" text="Remaining Value">
+            <cellValueFactory>
+              <PropertyValueFactory property="remainingBalanceString" />
+            </cellValueFactory>
+          </TableColumn>
+        </columns>
+        <sortOrder>
+          <fx:reference source="monthNumberColumn" />
+        </sortOrder>
+      </TableView>
+      <HBox alignment="CENTER_RIGHT" prefHeight="53.0" prefWidth="869.0" spacing="10.0">
+         <children>
+            <Label text="Total Payment: " />
+            <TextField fx:id="totalPaymentText" editable="false" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets right="30.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

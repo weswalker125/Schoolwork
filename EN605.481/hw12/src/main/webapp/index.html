@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=page-width, initial-scale=1.0">
+   <title>Happy Flowers - Order</title>
+   <link rel="stylesheet" href="happy.css" />
+   <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+   <div class="container">
+      <header>
+         <h1>
+            Happy Flowers Plus
+         </h1>
+      </header>
+
+      <nav>
+         <ul>
+            <li><a href="#">Floral Arrangements</a></li>
+            <li><a href="#">Seasonal Bouquets</a></li>
+            <li><a href="#">Live Plants</a></li>
+            <li><a href="#">Shop by Price</a></li>
+         </ul>
+      </nav>
+   </div>
+
+   <article>
+      <h2>Place an Order</h2>
+      <div id="errorText"></div>
+      <form action="homework12" method="post">
+        <fieldset id="message" class="checks">
+          <legend>Message</legend>
+          <input type="checkbox" name="msg1" id="msg1" value="Congratulations!">
+          <label for="msg1">Congratulations!</label>
+
+          <input type="checkbox" name="msg2" id="msg2" value="Happy Birthday!">
+          <label for="msg2">Happy Birthday!</label>
+
+          <input type="checkbox" name="msg3" id="msg3" value="Happy Anniversary!">
+          <label for="msg3">Happy Anniversary!</label>
+
+          <input type="checkbox" name="msg4" id="msg4" value="I love you!">
+          <label for="msg4">I love you!</label>
+
+          <input type="checkbox" name="msg5" id="msg5" value="custom_message">
+          <label for="msg5">Custom message</label>
+
+          <textarea name="CustomText" placeholder="Enter custom message here (max 250 characters)" max="250"></textarea>
+         </fieldset>
+
+         <fieldset id="billingAddress" class="text">
+            <legend>Billing Address</legend>
+            <label for="billFName">First Name</label>
+            <input type="text" name="BillingFirstName" id="billFName" required autofocus>
+
+            <label for="billLName">Last Name</label>
+            <input type="text" name="BillingLastName" id="billLName" required>
+
+            <label for="billStreet">Street Address</label>
+            <input type="text" name="BillingStreet" id="billStreet" required>
+
+            <label for="billCity">City</label>
+            <input type="text" name="BillingCity" id="billCity" required>
+
+            <label for="billState">State</label>
+            <select name="BillingState" id="billState">
+               <option value="Alabama">AL</option>
+               <option value="Alaska">AK</option>
+               <option value="Arizona">AZ</option>
+               <option value="Arkansas">AR</option>
+               <option value="California">CA</option>
+               <option value="Colorado">CO</option>
+               <option value="Connecticut">CT</option>
+               <option value="District of Columbia">D.C.</option>
+               <option value="Delaware">DE</option>
+               <option value="Florida">FL</option>
+               <option value="Georgia">GA</option>
+               <option value="Hawaii">HI</option>
+               <option value="Idaho">ID</option>
+               <option value="Illinois">IL</option>
+               <option value="Indiana">IN</option>
+               <option value="Iowa">IA</option>
+               <option value="Kansas">KS</option>
+               <option value="Kentucky">KY</option>
+               <option value="Louisiana">LA</option>
+               <option value="Maine">ME</option>
+               <option value="Maryland">MD</option>
+               <option value="Massachusetts">MA</option>
+               <option value="Michigan">MI</option>
+               <option value="Minnesota">MN</option>
+               <option value="Mississippi">MS</option>
+               <option value="Missouri">MO</option>
+               <option value="Montana">MT</option>
+               <option value="Nebraska">NE</option>
+               <option value="Nevada">NV</option>
+               <option value="New Hampshire">NH</option>
+               <option value="New Jersey">NJ</option>
+               <option value="New Mexico">NM</option>
+               <option value="New York">NY</option>
+               <option value="North Carolina">NC</option>
+               <option value="North Dakota">ND</option>
+               <option value="Ohio">OH</option>
+               <option value="Oklahoma">OK</option>
+               <option value="Oregon">OR</option>
+               <option value="Pennsylvania">PA</option>
+               <option value="Rhode Island">RI</option>
+               <option value="South Carolina">SC</option>
+               <option value="South Dakota">SD</option>
+               <option value="Tennessee">TN</option>
+               <option value="Texas">TX</option>
+               <option value="Utah">UT</option>
+               <option value="Vermont">VT</option>
+               <option value="Virginia">VA</option>
+               <option value="Washington">WA</option>
+               <option value="West Virginia">WV</option>
+               <option value="Wisconsin">WI</option>
+               <option value="Wyoming">WY</option>
+            </select>
+
+            <label for="billZip">Zip</label>
+            <input type="text" name="BillingZip" id="billZip" placeholder="5 or 9 digits" pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits" required>
+
+            <label for="billPhone">Phone</label>
+            <input type="tel" name="BillingPhone" id="billPhone" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format" required>
+         </fieldset>
+
+         <fieldset id="deliveryAddress" class="text">
+            <legend>Delivery Address</legend>
+
+            <div class="inline">
+              <input type="checkbox" name="SameAddress" id="same_as_billing">
+              <label for="same_as_billing">same as billing address</label>
+            </div>
+
+            <label for="delivFName">First Name</label>
+            <input type="text" name="DeliveryFirstName" id="delivFName">
+
+            <label for="delivLName">Last Name</label>
+            <input type="text" name="DeliveryLastName" id="delivLName">
+
+            <label for="delivStreet">Street Address</label>
+            <input type="text" name="DeliveryStreet" id="delivStreet">
+
+            <label for="delivCity">City</label>
+            <input type="text" name="DeliveryCity" id="delivCity">
+
+            <label for="delivState">State</label>
+            <select name="DilveryState" id="delivState">
+               <option value="Alabama">AL</option>
+               <option value="Alaska">AK</option>
+               <option value="Arizona">AZ</option>
+               <option value="Arkansas">AR</option>
+               <option value="California">CA</option>
+               <option value="Colorado">CO</option>
+               <option value="Connecticut">CT</option>
+               <option value="District of Columbia">D.C.</option>
+               <option value="Delaware">DE</option>
+               <option value="Florida">FL</option>
+               <option value="Georgia">GA</option>
+               <option value="Hawaii">HI</option>
+               <option value="Idaho">ID</option>
+               <option value="Illinois">IL</option>
+               <option value="Indiana">IN</option>
+               <option value="Iowa">IA</option>
+               <option value="Kansas">KS</option>
+               <option value="Kentucky">KY</option>
+               <option value="Louisiana">LA</option>
+               <option value="Maine">ME</option>
+               <option value="Maryland">MD</option>
+               <option value="Massachusetts">MA</option>
+               <option value="Michigan">MI</option>
+               <option value="Minnesota">MN</option>
+               <option value="Mississippi">MS</option>
+               <option value="Missouri">MO</option>
+               <option value="Montana">MT</option>
+               <option value="Nebraska">NE</option>
+               <option value="Nevada">NV</option>
+               <option value="New Hampshire">NH</option>
+               <option value="New Jersey">NJ</option>
+               <option value="New Mexico">NM</option>
+               <option value="New York">NY</option>
+               <option value="North Carolina">NC</option>
+               <option value="North Dakota">ND</option>
+               <option value="Ohio">OH</option>
+               <option value="Oklahoma">OK</option>
+               <option value="Oregon">OR</option>
+               <option value="Pennsylvania">PA</option>
+               <option value="Rhode Island">RI</option>
+               <option value="South Carolina">SC</option>
+               <option value="South Dakota">SD</option>
+               <option value="Tennessee">TN</option>
+               <option value="Texas">TX</option>
+               <option value="Utah">UT</option>
+               <option value="Vermont">VT</option>
+               <option value="Virginia">VA</option>
+               <option value="Washington">WA</option>
+               <option value="West Virginia">WV</option>
+               <option value="Wisconsin">WI</option>
+               <option value="Wyoming">WY</option>
+            </select>
+
+            <label for="delivZip">Zip</label>
+            <input type="text" name="DeliveryZip" id="delivZip" placeholder="5 or 9 digits" pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits">
+
+            <label for="delivPhone">Phone</label>
+            <input type="tel" name="DeliveryPhone" id="delivPhone" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format">
+
+         </fieldset>
+
+         <fieldset id="deliveryDate" class="checks">
+            <legend>Delivery Date</legend>
+            <select name="delivery_month" id="DelivMonth">
+               <option value="1">January</option>
+               <option value="2">February</option>
+               <option value="3">March</option>
+               <option value="4">April</option>
+               <option value="5">May</option>
+               <option value="6">June</option>
+               <option value="7">July</option>
+               <option value="8">August</option>
+               <option value="9">September</option>
+               <option value="10">October</option>
+               <option value="11">November</option>
+               <option value="12">December</option>
+            </select>
+
+            <select name="delivery_day" id="DelivDay">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+
+            <select name="delivery_year" id="DelivYear">
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select>
+            <!-- input type "date" not supported by FireFox :\ -->
+            <!-- <input type="date" name="delivery_date" id="delivery_date" required> -->
+         </fieldset>
+
+         <fieldset id="paymentInfo" class="text">
+            <legend>Payment</legend>
+            
+            <div class="inline">
+              <input type="radio" name="PaymentType" id="cc1" value="visa">
+              <label for="cc1">Visa</label>
+
+              <input type="radio" name="PaymentType" id="cc2" value="master_card">
+              <label for="cc2">Master Card</label>
+
+              <input type="radio" name="PaymentType" id="cc3" value="discover">
+              <label for="cc3">Discover</label>
+
+              <input type="radio" name="PaymentType" id="cc4" value="american_express">
+              <label for="cc4">American Express</label>
+            </div>
+
+            <label for="ccNum">Card #</label>
+            <input type="text" name="CardNumber" id="ccNum" 
+              pattern="(^\d{4}-\d{4}-\d{4}-\d{4}$)|(\d{4}-\d{6}-\d{5}$)"
+              placeholder="xxxx-xxxx-xxxx-xxxx" required>
+
+            <label>Expiration:</label>
+            <select id="card_exp_month" name="ExpMonth">
+               <option value="Jan">01</option>
+               <option value="Feb">02</option>
+               <option value="Mar">03</option>
+               <option value="Apr">04</option>
+               <option value="May">05</option>
+               <option value="Jun">06</option>
+               <option value="Jul">07</option>
+               <option value="Aug">08</option>
+               <option value="Sep">09</option>
+               <option value="Oct">10</option>
+               <option value="Nov">11</option>
+               <option value="Dec">12</option>
+            </select>
+
+            <select id="card_exp_year" name="ExpYear">
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select>
+
+            <label for="cvv">CVV</label>
+            <input type="text" name="CVVValue" id="cvv" required pattern="[0-9]{3,4}" placeholder="xxx">
+         </fieldset>
+
+         <fieldset id="createAccount" class="text">
+            <legend>Create Account?</legend>
+            <p>To be able to access your purchase history and make changes to your order, enter a name and password to create an account.</p>
+
+            <label for="user_name">Username</label>
+            <input type="text" name="NewUsername" id="user_name" required pattern="[A-Za-z0-9_.-]{4,32}">
+
+            <label for="password">Password</label>
+            <input type="password" name="Password1" id="password" required pattern="[a-zA-Z0-9]{6,50}">
+
+            <label for="password_verify">Password (verify)</label>
+            <input type="password" name="Password2" id="password_verify" required pattern="[a-zA-Z0-9]{6,50}">
+         </fieldset>
+         
+         <div id="buttonContainer">
+            <input type="submit" value="Place Order" id="orderButton" />
+         </div>
+      </form>
+   </article>
+   <footer>Happy Flowers <span>&bull;</span> Washington, D.C.</footer>
+   <script type="text/javascript">
+    var sameAddressBox = document.getElementById("same_as_billing");
+
+    // Function to add dashes into phone number while typing
+    function formatPhoneNumber(fieldId) {
+      var phoneString = document.getElementById(fieldId).value;
+      var dashLocations = [3, 7];
+
+      dashLocations.forEach(function (loc) {
+        if (phoneString.length > loc && phoneString.substr(loc,1) !== "-") {
+          phoneString = phoneString.substr(0, loc) + "-" + phoneString.substr(loc);
+          document.getElementById(fieldId).value = phoneString;
+        }
+      });
+    }
+
+    // Function to add dashes into credit card number while typing
+    // Standard format: xxxx-xxxx-xxxx-xxxx
+    // American Express format: xxxx-xxxxxx-xxxxx
+    function formatCreditCardNumber(fieldId, isAmEx) {
+      var ccNum = document.getElementById(fieldId).value;
+      var dashLocations = [4, 9, 14];
+      if (isAmEx) {
+        dashLocations = [4, 11];
+      }
+
+      dashLocations.forEach(function (loc) {
+        if (ccNum.length > loc && ccNum.substr(loc,1) !== "-") {
+          ccNum = ccNum.substr(0, loc) + "-" + ccNum.substr(loc);
+          document.getElementById(fieldId).value = ccNum;
+        }
+      });
+    }
+
+    // Function to copy input value from one element to another 
+    // It's verbose and I'm lazy.
+    function copyValue(fromId, toId) {
+      document.getElementById(toId).value = document.getElementById(fromId).value;
+    }
+
+    // Function to change the "disabled" attribute for a given element.
+    // It's verbose and I'm lazy.
+    function toggleDisabled(id, isDisabled) {
+      document.getElementById(id).disabled = isDisabled;
+    }
+
+    // OnKeyUp event listener for billing phone number.
+    document.getElementById("billPhone").addEventListener("keyup", function(e) {
+      // ignore backspace, delete, arrow keys
+      if (![8, ,37, 38, 39, 40, 46].includes(e.keyCode)) {
+        formatPhoneNumber("billPhone");
+      }
+    });
+
+    // OnKeyUp event listener for delivery phone number.
+    document.getElementById("delivPhone").addEventListener("keyup", function(e) {
+      // ignore backspace, delete, arrow keys
+      if (![8, ,37, 38, 39, 40, 46].includes(e.keyCode)) {
+        formatPhoneNumber("delivPhone");
+      }
+    });
+
+    // OnKeyUp event listener for credit card number.
+    document.getElementById("ccNum").addEventListener("keyup", function(e) {
+      // ignore backspace, delete, arrow keys
+      if (![8, ,37, 38, 39, 40, 46].includes(e.keyCode)) {
+        formatCreditCardNumber("ccNum", document.getElementById("cc4").checked);
+      }
+    });
+
+    // Event listener (on "KeyUp") to copy value from billing to delivery
+    document.getElementById("billFName").addEventListener("keyup", function() {
+      if (sameAddressBox.checked) {
+        copyValue("billFName", "delivFName");
+      }
+    });
+
+    // Event listener (on "KeyUp") to copy value from billing to delivery
+    document.getElementById("billLName").addEventListener("keyup", function() {
+      if (sameAddressBox.checked) {
+        copyValue("billLName", "delivLName");
+      }
+    });
+
+    // Event listener (on "KeyUp") to copy value from billing to delivery
+    document.getElementById("billStreet").addEventListener("keyup", function() {
+      if (sameAddressBox.checked) {
+        copyValue("billStreet", "delivStreet");
+      }
+    });
+
+    // Event listener (on "KeyUp") to copy value from billing to delivery
+    document.getElementById("billCity").addEventListener("keyup", function() {
+      if (sameAddressBox.checked) {
+        copyValue("billCity", "delivCity");
+      }
+    });
+
+    // Event listener (on "KeyUp") to copy value from billing to delivery
+    document.getElementById("billState").addEventListener("mouseup", function() {
+      if (sameAddressBox.checked) {
+        copyValue("billState", "delivState");
+      }
+    });
+
+    // Event listener (on "KeyUp") to copy value from billing to delivery
+    document.getElementById("billZip").addEventListener("keyup", function() {
+      if (sameAddressBox.checked) {
+        copyValue("billZip", "delivZip");
+      }
+    });
+
+    // Event listener (on "KeyUp") to copy value from billing to delivery
+    document.getElementById("billPhone").addEventListener("keyup", function() {
+      if (sameAddressBox.checked) {
+        copyValue("billPhone", "delivPhone");
+      }
+    });
+
+    // OnClick event handler for the the "same as billing" checkbox.
+    sameAddressBox.addEventListener("click", function() {
+      if (sameAddressBox.checked) {
+        // Copy fields from billing to delivery
+        copyValue("billFName", "delivFName");
+        copyValue("billLName", "delivLName");
+        copyValue("billStreet", "delivStreet");
+        copyValue("billCity", "delivCity");
+        copyValue("billState", "delivState");
+        copyValue("billZip", "delivZip");
+        copyValue("billPhone", "delivPhone");
+
+        // Disable the delivery fields since they should match whatever's in billing.
+        toggleDisabled("delivFName", true);
+        toggleDisabled("delivLName", true);
+        toggleDisabled("delivStreet", true);
+        toggleDisabled("delivCity", true);
+        toggleDisabled("delivState", true);
+        toggleDisabled("delivZip", true);
+        toggleDisabled("delivPhone", true);
+      } else {
+        // Enable the delivery fields so the user may alter them (no longer same as billing).
+        toggleDisabled("delivFName", false);
+        toggleDisabled("delivLName", false);
+        toggleDisabled("delivStreet", false);
+        toggleDisabled("delivCity", false);
+        toggleDisabled("delivState", false);
+        toggleDisabled("delivZip", false);
+        toggleDisabled("delivPhone", false);
+      }
+    });
+
+    // OnClick event handler for the Place Order button.
+    document.getElementById('orderButton').addEventListener("click", function() {
+      // Enable the delivery fields so their submitted with the form data
+      toggleDisabled("delivFName", false);
+      toggleDisabled("delivLName", false);
+      toggleDisabled("delivStreet", false);
+      toggleDisabled("delivCity", false);
+      toggleDisabled("delivState", false);
+      toggleDisabled("delivZip", false);
+      toggleDisabled("delivPhone", false);
+
+      if (!(checkPasswordVerification() || checkDeliveryDate())) {
+        return false;
+      }
+    });
+
+    // Check that password values match
+    function checkPasswordVerification() {
+      if (document.getElementById('password').value !== document.getElementById('password_verify').value) {
+        alert('Please ensure your password inputs match.');
+        return false;
+      }
+      return true;
+    }
+
+    // Check that the delivery date is a valid date.
+    function checkDeliveryDate() {
+      var month = document.getElementById('DelivMonth').value;
+      var day = document.getElementById('DelivDay').value;
+      var year = document.getElementById('DelivYear').value;
+
+      if (['2', '4', '6', '9', '11'].includes(month) && day > 30 
+            || (month == '2' && day > 28 && year % 4 !== 0)
+            || (month == '2' && day > 29 && year % 4 === 0)) {
+        alert('Please provide valid delivery date.  (Too many days in month).');
+        return false;
+      }
+      return true;
+    }
+
+    document.getElementById('password_verify').addEventListener('blur', checkPasswordVerification);
+   </script>
+</body>
+</html>

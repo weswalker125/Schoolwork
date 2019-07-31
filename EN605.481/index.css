@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+#assignments {
+	
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 60%;
+    border-collapse: collapse;
+    margin-left:20%; 
+    margin-right:20%;
+}
+
+#assignments td, #assignments th {
+    font-size: 1em;
+    border: 1px solid #0066CC;
+    padding: 3px 7px 2px 7px;
+    text-align: center;
+}
+
+#assignments th {
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #0066CC;
+    color: #ffffff;
+}
+
+#assignments tr.alt td {
+    color: #000000;
+    background-color: #0066CC;
+}
+
+h1
+{
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size: 180%;
+	margin: 0 0 .5em;
+	text-align: center;
+}
+h2
+{
+text-align:center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size: 100%;
+	margin: 0 0 .5em;
+	
+}

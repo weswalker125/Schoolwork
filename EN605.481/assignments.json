@@ -1,0 +1,122 @@
+{
+  "assignments":
+  [{
+    "number": 1,
+    "description": "Account Setup",
+    "url": "index.html",
+    "name": "this page"
+  },
+
+
+  {
+    "number": 2,
+    "description": "HTML 5",
+    "url": "hw2/happy.htm",
+    "name": "Happy Flowers (static)"
+  },
+
+  {
+    "number": 3,
+    "description": "JavaScript and Forms",
+    "url": "hw3/happy.htm",
+    "name": "Happy Flowers (with submit)"
+  },
+
+
+  {
+    "number": 4,
+    "description": "JavaScript",
+    "url": "hw4/index.html",
+    "name": "(Project) Civic Duty"
+  },
+
+
+  {
+    "number": 5,
+    "description": "Ajax and JSON",
+    "url": "hw4/index.html",
+    "name": "(Project) Civic Duty"
+  },
+
+
+  {
+    "number": 6,
+    "description": "JQuery",
+    "url": "hw4/index.html",
+    "name": "(Project) Civic Duty"
+  },
+
+  {
+    "number": 7,
+    "description": "JavaFX",
+    "url": "hw7/build/jfx/app/hw7.jar",
+    "name": "hw7.jar"
+  },
+
+  {
+    "number": 8,
+    "description": "JavaFX - UI",
+    "url": "hw8/build/jfx/app/hw8.jar",
+    "name": "hw8.jar"
+  },
+
+
+  {
+    "number": 9,
+    "description": "JavaFX - Menu, Toolbar, Dialogs",
+    "url": "hw9/build/jfx/app/hw9.jar",
+    "name": "hw9.jar"
+  },
+
+
+  {
+    "number": 10,
+    "description": "GUI &amp; Database",
+    "url": "hw10/build/jfx/app/hw10.jar",
+    "name": "hw10.jar"
+  },
+
+
+  {
+    "number": 11,
+    "description": "Java Server Page",
+    "url": "hw11/build/libs/hw11.war",
+    "name": "hw11.war"
+  },
+
+  {
+    "number": 11,
+    "description": "WITH SOURCES",
+    "url": "hw11/build/libs/hw11-with-source.war",
+    "name": "hw11-with-source.war"
+  },
+
+  {
+    "number": 11,
+    "description": "DEPLOYED",
+    "url": "https://dev8.jhuep.com/wwalke24%5Fassignment11/",
+    "name": "wwalke24_assignment11"
+  },
+
+  {
+    "number": 12,
+    "description": "Servlets",
+    "url": "hw12/build/libs/hw12.war",
+    "name": "hw12.war"
+  },
+
+  {
+    "number": 12,
+    "description": "WITH SOURCES",
+    "url": "hw12/build/libs/hw12-with-source.war",
+    "name": "hw12-with-source.war"
+  },
+
+  {
+    "number": 12,
+    "description": "DEPLOYED",
+    "url": "https://dev8.jhuep.com/wwalke24%5Fassignment12/",
+    "name": "wwalke24_assignment12"
+  }
+]
+}

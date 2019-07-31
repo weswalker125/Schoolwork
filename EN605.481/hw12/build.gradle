@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'war'
+    id 'org.akhikhl.gretty' version '1.4.2'
+    id "com.bmuschko.cargo" version "2.2.3"
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+	compileOnly 'org.projectlombok:lombok:+'
+    compile 'javax.servlet:jstl:1.2'
+	providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+}
+
+war {
+    baseName = "wwalke24_assignment12"
+}
+
+task stdWar(type: War, dependsOn: classes) {
+    baseName = "hw12"
+}
+
+task sourcesWar(type: War, dependsOn: classes) {
+    baseName = "hw12-with-source"
+    from sourceSets.main.allSource
+}
+build.dependsOn stdWar
+build.dependsOn sourcesWar
+
+cargo {
+    containerId = "tomcat8x"
+    //port = 8082
+
+    deployable {
+        context = "wwalke24_assignment12"
+    }
+
+    remote {
+        hostname = "dev8.jhuep.com"
+        username = "jsp"
+        if (project.hasProperty("tomcatPassword")) {
+            password = "$tomcatPassword"
+        }
+    }
+}

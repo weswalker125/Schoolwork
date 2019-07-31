@@ -1,0 +1,48 @@
+import org.gradle.plugins.ide.eclipse.model.AccessRule
+
+buildscript {
+    dependencies {
+        classpath group: 'de.dynamicfiles.projects.gradle.plugins', name: 'javafx-gradle-plugin', version: '8.8.2'
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+
+    }
+}
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'javafx-gradle-plugin'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+eclipse {
+    classpath {
+        file {
+            whenMerged {
+                def jre = entries.find { it.path.contains 'org.eclipse.jdt.launching.JRE_CONTAINER' }
+                jre.accessRules.add(new AccessRule('accessible', 'javafx/**'))
+            }
+        }
+    }
+}
+
+jfx {
+    // minimal requirement for jfxJar-task
+    mainClass = 'edu.jhu.wwalke24.Homework10'
+    jfxMainAppJarName = "hw10.jar"
+    copyAdditionalAppResourcesToJar = true
+    
+    // minimal requirement for jfxNative-task
+    vendor = 'Walker'
+}
+
+dependencies {
+	compileOnly 'org.projectlombok:lombok:+'
+	compile 'org.apache.commons:commons-lang3:3.6'
+
+    runtime 'org.apache.derby:derby:10.12.1.1'
+}

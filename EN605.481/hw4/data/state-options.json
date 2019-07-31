@@ -1,0 +1,252 @@
+{
+  "states":
+  [{ 
+    "ocdId": "ocd-division/country:us/state:al", 
+    "name": "Alabama" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ak", 
+    "name": "Alaska" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:az", 
+    "name": "Arizona" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ar", 
+    "name": "Arkansas" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ca", 
+    "name": "California" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:co", 
+    "name": "Colorado" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ct", 
+    "name": "Connecticut" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:de", 
+    "name": "Delaware" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:fl", 
+    "name": "Florida" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ga", 
+    "name": "Georgia" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:hi", 
+    "name": "Hawaii" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:id", 
+    "name": "Idaho" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:il", 
+    "name": "Illinois" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:in", 
+    "name": "Indiana" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ia", 
+    "name": "Iowa" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ks", 
+    "name": "Kansas" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ky", 
+    "name": "Kentucky" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:la", 
+    "name": "Louisiana" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:me", 
+    "name": "Maine" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:md", 
+    "name": "Maryland" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ma", 
+    "name": "Massachusetts" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:mi", 
+    "name": "Michigan" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:mn", 
+    "name": "Minnesota" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ms", 
+    "name": "Mississippi" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:mo", 
+    "name": "Missouri" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:mt", 
+    "name": "Montana" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ne", 
+    "name": "Nebraska" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:nv", 
+    "name": "Nevada" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:nh", 
+    "name": "New Hampshire" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:nj", 
+    "name": "New Jersey" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:nm", 
+    "name": "New Mexico" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ny", 
+    "name": "New York" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:nc", 
+    "name": "North Carolina" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:nd", 
+    "name": "North Dakota" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:oh", 
+    "name": "Ohio" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ok", 
+    "name": "Oklahoma" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:or", 
+    "name": "Oregon" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:pa", 
+    "name": "Pennsylvania" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ri", 
+    "name": "Rhode Island" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:sc", 
+    "name": "South Carolina" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:sd", 
+    "name": "South Dakota" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:tn", 
+    "name": "Tennessee" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:tx", 
+    "name": "Texas" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:ut", 
+    "name": "Utah" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:vt", 
+    "name": "Vermont" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:va", 
+    "name": "Virginia" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:wa", 
+    "name": "Washington" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:wv", 
+    "name": "West Virginia" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:wi", 
+    "name": "Wisconsin" 
+  },
+
+  { 
+    "ocdId": "ocd-division/country:us/state:wy", 
+    "name": "Wyoming"
+  }]
+}

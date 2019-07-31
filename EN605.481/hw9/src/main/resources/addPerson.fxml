@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.ToggleGroup?>
+
+<AnchorPane fx:controller="edu.jhu.wwalke24.PersonController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="392.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="16.0" layoutY="16.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="294.0" prefWidth="400.0" style="-fx-border-width: 2px; -fx-border-style: solid; -fx-border-color: gray;">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="150.0">
+                     <children>
+                        <Label text="First Name" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="firstNameText" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="150.0">
+                     <children>
+                        <Label text="Last Name" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="lastNameText" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="150.0">
+                     <children>
+                        <Label text="Street Address" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="streetAddressText" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="150.0">
+                     <children>
+                        <Label text="City" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="cityText" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="150.0">
+                     <children>
+                        <Label text="State" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <ComboBox prefWidth="150.0" fx:id="stateCombo" >
+                           <items>
+                             <FXCollections fx:factory="observableArrayList">
+                               <String fx:value="Alabama" />
+                               <String fx:value="Alaska" />
+                               <String fx:value="Arizona" />
+                               <String fx:value="Arkansas" />
+                               <String fx:value="California" />
+                               <String fx:value="Colorado" />
+                               <String fx:value="Connecticut" />
+                               <String fx:value="District of Columbia" />
+                               <String fx:value="Delaware" />
+                               <String fx:value="Florida" />
+                               <String fx:value="Georgia" />
+                               <String fx:value="Hawaii" />
+                               <String fx:value="Idaho" />
+                               <String fx:value="Illinois" />
+                               <String fx:value="Indiana" />
+                               <String fx:value="Iowa" />
+                               <String fx:value="Kansas" />
+                               <String fx:value="Kentucky" />
+                               <String fx:value="Louisiana" />
+                               <String fx:value="Maine" />
+                               <String fx:value="Maryland" />
+                               <String fx:value="Massachusetts" />
+                               <String fx:value="Michigan" />
+                               <String fx:value="Minnesota" />
+                               <String fx:value="Mississippi" />
+                               <String fx:value="Missouri" />
+                               <String fx:value="Montana" />
+                               <String fx:value="Nebraska" />
+                               <String fx:value="Nevada" />
+                               <String fx:value="New Hampshire" />
+                               <String fx:value="New Jersey" />
+                               <String fx:value="New Mexico" />
+                               <String fx:value="New York" />
+                               <String fx:value="North Carolina" />
+                               <String fx:value="North Dakota" />
+                               <String fx:value="Ohio" />
+                               <String fx:value="Oklahoma" />
+                               <String fx:value="Oregon" />
+                               <String fx:value="Pennsylvania" />
+                               <String fx:value="Rhode Island" />
+                               <String fx:value="South Carolina" />
+                               <String fx:value="South Dakota" />
+                               <String fx:value="Tennessee" />
+                               <String fx:value="Texas" />
+                               <String fx:value="Utah" />
+                               <String fx:value="Vermont" />
+                               <String fx:value="Virginia" />
+                               <String fx:value="Washington" />
+                               <String fx:value="West Virginia" />
+                               <String fx:value="Wisconsin" />
+                               <String fx:value="Wyoming" />
+                             </FXCollections>
+                           </items>
+                           <value>
+                             <String fx:value="Alabama" />
+                           </value>
+                        </ComboBox>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="150.0">
+                     <children>
+                        <Label text="Zipcode" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="zipcodeText" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="150.0">
+                     <children>
+                        <Label text="Gender" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                     <children>
+                        <fx:define>
+                          <ToggleGroup fx:id="genderToggle"/>  
+                        </fx:define>
+                        <RadioButton fx:id="radioMale" mnemonicParsing="false" text="Male" toggleGroup="$genderToggle" />
+                        <RadioButton fx:id="radioFemale" mnemonicParsing="false" text="Female" toggleGroup="$genderToggle" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </VBox>
+      <HBox alignment="CENTER" layoutX="25.0" layoutY="326.0" prefHeight="56.0" prefWidth="383.0" spacing="30.0">
+         <children>
+            <Button mnemonicParsing="false" prefWidth="100.0" text="OK" onAction="#handleAddPersonOkButton" />
+            <Button mnemonicParsing="false" prefWidth="100.0" text="Cancel" onAction="#handleAddPersonCancelButton" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

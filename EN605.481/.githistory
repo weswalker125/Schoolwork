@@ -1,0 +1,300 @@
+commit bec25b8be36579974e735ff6252b420703cdee4f
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sat Oct 28 11:29:56 2017 -0400
+
+    updated assignments to list the deployed link as well.
+
+commit 85ae144314c36fdef5dc517a3ceaf5c8a3abf185
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sat Oct 28 11:22:38 2017 -0400
+
+    hw11, hw12
+
+commit 9339dcf2a4bdc784325bd09d13f947ed1820061e
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Mon Oct 23 23:36:23 2017 -0400
+
+    index, deploy script not working
+
+commit 1304b9ed43dd76117beff6fd341945c5e01cb74f
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Mon Oct 23 22:32:13 2017 -0400
+
+    hw11 seemingly done, to be tested on server.
+
+commit 4d55b679366b2cc872c9485d2582ba88a2c37d5b
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sun Oct 22 23:48:26 2017 -0400
+
+    sync script
+
+commit 4b66af29daa307bbe965b0b65045827de2416dd0
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sun Oct 22 23:42:16 2017 -0400
+
+    hw10 submission
+
+commit 550c1adce5603ee36d905f68bfdc568ba285caa9
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Thu Oct 19 01:13:15 2017 -0400
+
+    not sure this actually does anything for me
+
+commit 36f47ea8842f3a317d7572cd67e7c4da10a41959
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Thu Oct 19 00:40:25 2017 -0400
+
+    set radio button on edit
+
+commit 6df4211e43923603f7125d64429c9859e7245f85
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Thu Oct 19 00:35:55 2017 -0400
+
+    pretty much complete.
+
+commit 767567290f45f3131c5a752fe9d7ade8de3eefae
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Wed Oct 18 23:45:52 2017 -0400
+
+    most functionality implemented.
+
+commit a52659fa24cbf0e1ae021d29e512ce53a3fd0aa7
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Sun Oct 15 23:31:14 2017 -0400
+
+    faking some data, dynamic columns/table, etc.
+
+commit 4733cd3c30760d931e2ca02c420ca62822b48472
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Oct 15 19:42:42 2017 -0400
+
+    add person functional, needs to redraw after adding though.
+
+commit 52862c1ecc1abdb5573f33f02f050a2ca78be15c
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Oct 15 10:25:27 2017 -0400
+
+    split out controllers for each modal.
+
+commit 21d5a642816d28fb7212d669b5e69908f6762db1
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Oct 14 22:43:02 2017 -0400
+
+    starting hw9
+
+commit b289482e7c3d5adc02d63b67b82ff3abcae63623
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Oct 14 20:31:33 2017 -0400
+
+    hw8 finished.
+
+commit d88202bad3135e0cc35d5690dfa7d7340854e343
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Oct 14 14:35:45 2017 -0400
+
+    drafting out some todos, display total payment value with dollar sign at the end.
+
+commit 45b50debd33d573bc6384126eed31e37582531a7
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Oct 14 14:31:21 2017 -0400
+
+    eclipse config in gradle script for javafx stuff. hw8 started.
+
+commit bdbd813c6d0e797dd0df97ba139f4e3f0ec989db
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Oct 14 12:29:31 2017 -0400
+
+    change fxml to java 8, removes a warning.
+
+commit 7ddd1088733a143e45af3ec7454b32ea2ce6ba35
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Oct 14 12:20:22 2017 -0400
+
+    link to jar
+
+commit a8fbff1f657e0c3b350603b3764903e23227eb1e
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Oct 14 12:06:36 2017 -0400
+
+    button events handled through controller.
+
+commit 9420ef837bcb75b317435caabf13420b5bc4da46
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Thu Oct 12 23:28:18 2017 -0400
+
+    ignore eclipse files, etc
+
+commit 6fae954194404c822611a76bf05d7a4c2b87b7d3
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Thu Oct 12 22:55:23 2017 -0400
+
+    readme so I remember what to do.
+
+commit 1ff2c2b13f27f29f8030dc3112df3f81d2c9c71f
+Author: Wesley Walker <weswalker125@gmail.com>
+Date:   Thu Oct 12 22:54:37 2017 -0400
+
+    basic gui shell.
+
+commit ab4c6cabeda8c232853bfd066c5d7cacd44a29a9
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 21:22:27 2017 -0400
+
+    removed dumb files
+
+commit 883faaef46d06b3b1cd2029287bc6fc9224849ed
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 21:13:35 2017 -0400
+
+    tried a different api key, think i'm blocked for the day
+
+commit 75388626ac4015f17223b4cfb582d53c462572cb
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 20:54:18 2017 -0400
+
+    removed unused stuff, got the reps-mapping stuff in.
+
+commit 0c4561a096a353c5b9eff8ebbb90d2810af0cfd1
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 18:56:43 2017 -0400
+
+    updated assignments page
+
+commit 9e46f0622baf75b851a5839fcb0ec1867ba51f55
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 18:48:31 2017 -0400
+
+    removed some boilerplate
+
+commit 00adc05ac0df02149799bafca8238bf317b4a63a
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 18:38:35 2017 -0400
+
+    swapped out images, linked to tsilly things.
+
+commit 7bb700c91210895bb5b0077962b4a6bff9843474
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 17:05:55 2017 -0400
+
+    replaced apple with podium guy
+
+commit ac24d5f99a6e119082eb18104897978823bb25e4
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 16:37:40 2017 -0400
+
+    containing most text
+
+commit 62a9100200d2573f703400f48b467583973a0349
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 16:22:13 2017 -0400
+
+    displaying reps
+
+commit 9b17acde27afe7145afe4ca3dbd5ca3da53b47a3
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 13:05:55 2017 -0400
+
+    query for rep data
+
+commit 23e31e5f706fd5d83ffb066d88df1a14f2a26431
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 11:25:13 2017 -0400
+
+    populate state list through async call.
+
+commit 9e82ba8a049fb0bff0223b3b28ae40b005aa99e0
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 11:13:05 2017 -0400
+
+    arbitrary location on map if user says no to geo
+
+commit 3c5d855a022f605c1ba58bfad86351bdea8fa5ed
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 29 00:38:35 2017 -0400
+
+    video and map started.
+
+commit cf080ef483954ab2a0c36ebe876775ec9b20beaf
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Thu Sep 28 23:12:35 2017 -0400
+
+    starting the project
+
+commit c12c39af64b66d78eb575c336df0f6f3acd3a1f3
+Merge: a7db033 f04267f
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sun Sep 17 18:08:13 2017 -0400
+
+    Merge branch 'master' of bitbucket.org:weswalker125/jhu-webdev
+
+commit f04267f87ad3c69d07c4f67888576daa26d6214d
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Sep 16 10:15:53 2017 -0400
+
+    decode results query string
+
+commit f19db245552eb6a622db5b3558ee2119aaec77cf
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Sat Sep 16 10:10:43 2017 -0400
+
+    JS functions for phone and cc number formatting to auto-add dashes
+
+commit a7db033ab25ee90e3c79cad70d1a53f27847621b
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Tue Sep 12 00:05:55 2017 -0400
+
+    js validations
+
+commit 298da7b72e719b77a2891d8ffbdde23fc85e08ee
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 8 00:21:26 2017 -0400
+
+    spaces cleaned up in values, changed values of msgs to match appearance.
+
+commit 22ce94802ece9bf975e7705f66335772d1222ff0
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 8 00:13:52 2017 -0400
+
+    enable all the delivery fields on submit so they're included in the query data
+
+commit 0d20adc6cf9944eb4768e8d42498ea2a29397c80
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 8 00:06:53 2017 -0400
+
+    https fonts link because chromium complained.  hw3 pretty much wrapped up
+
+commit 3dde28957340b2b3e16750bdc8d5d6904c3a33c7
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Thu Sep 7 22:32:02 2017 -0400
+
+    pw fixed, required attribute mispelled
+
+commit b6799fe389137c46be3200b8aaec1275cedbd981
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Thu Sep 7 22:24:17 2017 -0400
+
+    server side enc'd password
+
+commit 42770fa163cff36884b1c4f357361282ce1951a8
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Thu Sep 7 22:19:40 2017 -0400
+
+    comment regarding firefox behavior
+
+commit 7a6fedb86356baf8523e76d6340b1987f5ef5954
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Thu Sep 7 22:12:18 2017 -0400
+
+    hw2 seems complete.  Renders well in Chromium, deficits in FireFox.
+
+commit afc83a4fbb4d2d158e5d95c51b818868f961fadb
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 1 00:14:58 2017 -0400
+
+    filled out remainder of DOM elements for hw2, lacking css tweaks.
+
+commit f7fb45f637d72f373860dbd770bccec44d546156
+Author: Wes Walker <weswalker125@gmail.com>
+Date:   Fri Sep 1 00:02:18 2017 -0400
+
+    initial commit, partially through hw2.

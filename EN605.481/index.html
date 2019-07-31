@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<meta charset="utf-8">
+<title>EN 605.481 - Enterprise Web Development - Assignments</title>
+<script src="jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function() {
+  $.ajaxSetup({ beforeSend: function(xhr) {
+    if (xhr.overrideMimeType) {
+      xhr.overrideMimeType("application/json");
+    }
+  }});
+  $.getJSON('assignments.json', function(data) {
+    $.each(data.assignments, function(i, assignment) {
+      $('<tr>', {
+        html: `<td> ${assignment.number} </td>`
+          +   `<td> ${assignment.description} </td>`
+          +   `<td><a href="${assignment.url}"> ${assignment.name} </a></td>`
+      }).appendTo('#assignments tbody:first');
+    });
+  });
+});
+</script>
+</head>
+
+<body>
+<content>
+<h1>EN 605.481 - Enterprise Web Development
+<br> Assignments </h1>
+<h2>
+<br> Wesley Walker <br> Fall 2017</h2>
+
+<table id="assignments">
+  <tr>
+    <th>Assignment Number</th>
+    <th>Description</th>		
+    <th>Link</th>
+  </tr>
+</table>
+<br>
+</content>
+</body>
+</html>

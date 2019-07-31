@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=page-width, initial-scale=1.0">
+   <title>Happy Flowers - Order</title>
+   <link rel="stylesheet" href="happy.css" />
+   <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+   <div class="container">
+      <header>
+         <h1>
+            Happy Flowers
+         </h1>
+      </header>
+
+      <nav>
+         <ul>
+            <li><a href="#">Floral Arrangements</a></li>
+            <li><a href="#">Seasonal Bouquets</a></li>
+            <li><a href="#">Live Plants</a></li>
+            <li><a href="#">Shop by Price</a></li>
+         </ul>
+      </nav>
+   </div>
+
+   <article>
+      <h2>Place an Order</h2>
+      <div id="errorText"></div>
+      <form action="results.htm">
+        <fieldset id="message" class="checks">
+          <legend>Message</legend>
+          <input type="checkbox" name="msg1" id="msg1" value="congratulations">
+          <label for="msg1">Congratulations!</label>
+
+          <input type="checkbox" name="msg2" id="msg2" value="happy_birthday">
+          <label for="msg2">Happy Birthday!</label>
+
+          <input type="checkbox" name="msg3" id="msg3" value="happy_anniversary">
+          <label for="msg3">Happy Anniversary!</label>
+
+          <input type="checkbox" name="msg4" id="msg4" value="i_love_you">
+          <label for="msg4">I love you!</label>
+
+          <input type="checkbox" name="msg5" id="msg5" value="custom_message">
+          <label for="msg5">Custom message</label>
+
+          <textarea name="custom_message_text" placeholder="Enter custom message here (max 250 characters)" max="250"></textarea>
+         </fieldset>
+
+         <fieldset id="billingAddress" class="text">
+            <legend>Billing Address</legend>
+            <label for="billFName">First Name</label>
+            <input type="text" name="firstname" id="billFName" required autofocus>
+
+            <label for="billLName">Last Name</label>
+            <input type="text" name="lastname" id="billLName" required>
+
+            <label for="billStreet">Street Address</label>
+            <input type="text" name="street_address" id="billStreet" required>
+
+            <label for="billCity">City</label>
+            <input type="text" name="city" id="billCity" required>
+
+            <label for="billState">State</label>
+            <select name="state" id="billState">
+               <option value="Alabama">AL</option>
+               <option value="Alaska">AK</option>
+               <option value="Arizona">AZ</option>
+               <option value="Arkansas">AR</option>
+               <option value="California">CA</option>
+               <option value="Colorado">CO</option>
+               <option value="Connecticut">CT</option>
+               <option value="District of Columbia">D.C.</option>
+               <option value="Delaware">DE</option>
+               <option value="Florida">FL</option>
+               <option value="Georgia">GA</option>
+               <option value="Hawaii">HI</option>
+               <option value="Idaho">ID</option>
+               <option value="Illinois">IL</option>
+               <option value="Indiana">IN</option>
+               <option value="Iowa">IA</option>
+               <option value="Kansas">KS</option>
+               <option value="Kentucky">KY</option>
+               <option value="Louisiana">LA</option>
+               <option value="Maine">ME</option>
+               <option value="Maryland">MD</option>
+               <option value="Massachusetts">MA</option>
+               <option value="Michigan">MI</option>
+               <option value="Minnesota">MN</option>
+               <option value="Mississippi">MS</option>
+               <option value="Missouri">MO</option>
+               <option value="Montana">MT</option>
+               <option value="Nebraska">NE</option>
+               <option value="Nevada">NV</option>
+               <option value="New Hampshire">NH</option>
+               <option value="New Jersey">NJ</option>
+               <option value="New Mexico">NM</option>
+               <option value="New York">NY</option>
+               <option value="North Carolina">NC</option>
+               <option value="North Dakota">ND</option>
+               <option value="Ohio">OH</option>
+               <option value="Oklahoma">OK</option>
+               <option value="Oregon">OR</option>
+               <option value="Pennsylvania">PA</option>
+               <option value="Rhode Island">RI</option>
+               <option value="South Carolina">SC</option>
+               <option value="South Dakota">SD</option>
+               <option value="Tennessee">TN</option>
+               <option value="Texas">TX</option>
+               <option value="Utah">UT</option>
+               <option value="Vermont">VT</option>
+               <option value="Virginia">VA</option>
+               <option value="Washington">WA</option>
+               <option value="West Virginia">WV</option>
+               <option value="Wisconsin">WI</option>
+               <option value="Wyoming">WY</option>
+            </select>
+
+            <label for="billZip">Zip</label>
+            <input type="text" name="zipcode" id="billZip" placeholder="5 or 9 digits" pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits" required>
+
+            <label for="billPhone">Phone</label>
+            <input type="tel" name="phone" id="billPhone" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format" required>
+         </fieldset>
+
+         <fieldset id="deliveryAddress" class="text">
+            <legend>Delivery Address</legend>
+
+            <div class="inline">
+              <input type="checkbox" name="same_as_billing" id="same_as_billing">
+              <label for="same_as_billing">same as billing address</label>
+            </div>
+
+            <label for="delivFName">First Name</label>
+            <input type="text" name="firstname" id="delivFName">
+
+            <label for="delivLName">Last Name</label>
+            <input type="text" name="lastname" id="delivLName">
+
+            <label for="delivStreet">Street Address</label>
+            <input type="text" name="street_address" id="delivStreet">
+
+            <label for="delivCity">City</label>
+            <input type="text" name="city" id="delivCity">
+
+            <label for="delivState">State</label>
+            <select name="state" id="delivState">
+               <option value="Alabama">AL</option>
+               <option value="Alaska">AK</option>
+               <option value="Arizona">AZ</option>
+               <option value="Arkansas">AR</option>
+               <option value="California">CA</option>
+               <option value="Colorado">CO</option>
+               <option value="Connecticut">CT</option>
+               <option value="District of Columbia">D.C.</option>
+               <option value="Delaware">DE</option>
+               <option value="Florida">FL</option>
+               <option value="Georgia">GA</option>
+               <option value="Hawaii">HI</option>
+               <option value="Idaho">ID</option>
+               <option value="Illinois">IL</option>
+               <option value="Indiana">IN</option>
+               <option value="Iowa">IA</option>
+               <option value="Kansas">KS</option>
+               <option value="Kentucky">KY</option>
+               <option value="Louisiana">LA</option>
+               <option value="Maine">ME</option>
+               <option value="Maryland">MD</option>
+               <option value="Massachusetts">MA</option>
+               <option value="Michigan">MI</option>
+               <option value="Minnesota">MN</option>
+               <option value="Mississippi">MS</option>
+               <option value="Missouri">MO</option>
+               <option value="Montana">MT</option>
+               <option value="Nebraska">NE</option>
+               <option value="Nevada">NV</option>
+               <option value="New Hampshire">NH</option>
+               <option value="New Jersey">NJ</option>
+               <option value="New Mexico">NM</option>
+               <option value="New York">NY</option>
+               <option value="North Carolina">NC</option>
+               <option value="North Dakota">ND</option>
+               <option value="Ohio">OH</option>
+               <option value="Oklahoma">OK</option>
+               <option value="Oregon">OR</option>
+               <option value="Pennsylvania">PA</option>
+               <option value="Rhode Island">RI</option>
+               <option value="South Carolina">SC</option>
+               <option value="South Dakota">SD</option>
+               <option value="Tennessee">TN</option>
+               <option value="Texas">TX</option>
+               <option value="Utah">UT</option>
+               <option value="Vermont">VT</option>
+               <option value="Virginia">VA</option>
+               <option value="Washington">WA</option>
+               <option value="West Virginia">WV</option>
+               <option value="Wisconsin">WI</option>
+               <option value="Wyoming">WY</option>
+            </select>
+
+            <label for="delivZip">Zip</label>
+            <input type="text" name="zipcode" id="delivZip" placeholder="5 or 9 digits" pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits">
+
+            <label for="delivPhone">Phone</label>
+            <input type="tel" name="phone" id="delivPhone" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format">
+
+         </fieldset>
+
+         <fieldset id="deliveryDate" class="checks">
+            <legend>Delivery Date</legend>
+            <!-- <select name="delivery_month" id="delivery_month">
+               <option value="Jan">January</option>
+               <option value="Feb">February</option>
+               <option value="Mar">March</option>
+               <option value="Apr">April</option>
+               <option value="May">May</option>
+               <option value="Jun">June</option>
+               <option value="Jul">July</option>
+               <option value="Aug">August</option>
+               <option value="Sep">September</option>
+               <option value="Oct">October</option>
+               <option value="Nov">November</option>
+               <option value="Dec">December</option>
+            </select>
+
+            <select id="delivery_day" name="delivery_day">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+
+            <select id="delivery_year" name="delivery_year">
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select> -->
+            <!-- input type "date" not supported by FireFox :\ -->
+            <input type="date" name="delivery_date" id="delivery_date" required>
+         </fieldset>
+
+         <fieldset id="paymentInfo" class="text">
+            <legend>Payment</legend>
+            
+            <div class="inline">
+              <input type="radio" name="cc" id="cc1" value="visa">
+              <label for="cc1">Visa</label>
+
+              <input type="radio" name="cc" id="cc2" value="master_card">
+              <label for="cc2">Master Card</label>
+
+              <input type="radio" name="cc" id="cc3" value="discover">
+              <label for="cc3">Discover</label>
+
+              <input type="radio" name="cc" id="cc4" value="american_express">
+              <label for="cc4">American Express</label>
+            </div>
+
+            <label for="ccNum">Card #</label>
+            <input type="text" name="card_number" id="ccNum" 
+              pattern="(^\d{4}-\d{4}-\d{4}-\d{4}$)|(\d{4}-\d{6}-\d{5}$)"
+              placeholder="xxxx-xxxx-xxxx-xxxx" required>
+
+            <label>Expiration:</label>
+            <select name="card_exp_month" id="card_exp_month">
+               <option value="Jan">01</option>
+               <option value="Feb">02</option>
+               <option value="Mar">03</option>
+               <option value="Apr">04</option>
+               <option value="May">05</option>
+               <option value="Jun">06</option>
+               <option value="Jul">07</option>
+               <option value="Aug">08</option>
+               <option value="Sep">09</option>
+               <option value="Oct">10</option>
+               <option value="Nov">11</option>
+               <option value="Dec">12</option>
+            </select>
+
+            <select id="card_exp_year" name="card_exp_year">
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+            </select>
+
+            <label for="cvv">CVV</label>
+            <input type="text" name="cvv" id="cvv" required pattern="[0-9]{3,4}" placeholder="xxx">
+         </fieldset>
+
+         <fieldset id="createAccount" class="text">
+            <legend>Create Account?</legend>
+            <p>To be able to access your purchase history and make changes to your order, enter a name and password to create an account.</p>
+
+            <label for="user_name">Username</label>
+            <input type="text" name="user_name" id="user_name" required pattern="[A-Za-z0-9_.-]{4,32}">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required pattern="[a-zA-Z0-9]{6,50}">
+
+            <label for="password_verify">Password (verify)</label>
+            <input type="password" name="password_verify" id="password_verify" required pattern="[a-zA-Z0-9]{6,50}">
+         </fieldset>
+         
+         <div id="buttonContainer">
+            <input type="submit" value="Place Order" id="orderButton" />
+         </div>
+      </form>
+   </article>
+   <footer>Happy Flowers <span>&bull;</span> Washington, D.C.</footer>
+</body>
+</html>
