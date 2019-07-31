@@ -1,0 +1,61 @@
+ Problem 1 is unsolvable
+ Problem 2 is well-designed
+ Problem 3 has a Type-II flaw
+ Problem 4 has a Type-II flaw
+ Problem 5 is unsolvable
+ Problem 6 is unsolvable
+ Problem 7 is unsolvable
+ Problem 8 is well-designed
+ Problem 9 is well-designed
+ Problem 10 is well-designed
+ Problem 11 is unsolvable
+ Problem 12 is well-designed
+ Problem 13 is unsolvable
+ Problem 14 is well-designed
+ Problem 15 has a Type-II flaw
+ Problem 16 is well-designed
+ Problem 17 is unsolvable
+ Problem 18 is unsolvable
+ Problem 19 is unsolvable
+ Problem 20 has a Type-II flaw
+ Problem 21 has a Type-II flaw
+ Problem 22 is unsolvable
+ Problem 23 is unsolvable
+ Problem 24 is well-designed
+ Problem 25 is well-designed
+ Problem 26 is well-designed
+ Problem 27 is well-designed
+ Problem 28 is well-designed
+ Problem 29 has a Type-II flaw
+ Problem 30 has a Type-II flaw
+ Problem 31 has a Type-II flaw
+ Problem 32 is unsolvable
+ Problem 33 has a Type-II flaw
+ Problem 34 has a Type-II flaw
+ Problem 35 has a Type-II flaw
+ Problem 36 has a Type-II flaw
+ Problem 37 has a Type-II flaw
+ Problem 38 is unsolvable
+ Problem 39 has a Type-II flaw
+ Problem 40 is well-designed
+ Problem 41 has a Type-II flaw
+ Problem 42 has a Type-II flaw
+ Problem 43 is well-designed
+ Problem 44 is well-designed
+ Problem 45 is well-designed
+ Problem 46 is unsolvable
+ Problem 47 is well-designed
+ Problem 48 has a Type-II flaw
+ Problem 49 has a Type-II flaw
+ Problem 50 is unsolvable
+ Problem 51 is unsolvable
+ Problem 52 is unsolvable
+ Problem 53 has a Type-II flaw
+ Problem 54 is well-designed
+ Problem 55 is unsolvable
+ Problem 56 is well-designed
+ Problem 57 is unsolvable
+ Problem 58 is well-designed
+ Problem 59 has a Type-II flaw
+ Problem 60 is unsolvable
+ 
