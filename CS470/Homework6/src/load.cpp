@@ -9,6 +9,7 @@
  */
 
 #include "header.h"
+#include <unistd.h>
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -72,7 +73,7 @@ int main(int argc, char* argv[])
 	strcpy(infoptr[ct].sID, "null");
 	strcpy(infoptr[ct].address, "null");
 	strcpy(infoptr[ct].telNumber, "null");
-	sleep(10);
+	usleep(10);
 	Signal(sema_set, ct);
 
 	return 0;

@@ -6,6 +6,7 @@
 */
 
 #include "header.h"
+#include <unistd.h>
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -47,7 +48,7 @@ int main(int argc, char* argv[])
 			printf("Address: %s\n", infoptr[ct].address);
   			break;
 		}
-		sleep(10);
+		usleep(10);
 		Signal(sema_set, ct); 
 	}
   return 0;

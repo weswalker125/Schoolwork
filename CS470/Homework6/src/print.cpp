@@ -6,6 +6,7 @@
  */
 
 #include "header.h"
+#include <unistd.h>
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -39,7 +40,7 @@ int main(int argc, char* argv[])
 		printf("Student ID: %s\n", infoptr[i].sID);
 		printf("Address: %s\n", infoptr[i].address);
 		printf("Telephone: %s\n", infoptr[i].telNumber);
-		sleep(10);
+		usleep(10);
 		Signal(sema_set, i); 
 	}
 	return 0;
